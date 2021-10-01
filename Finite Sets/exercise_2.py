@@ -11,8 +11,8 @@ class FieldElement:
     def __req__(self):
         return("FieldElement_{}({}).{}".format(self.num,self.prime))
     # Defining modulo here
-    def __modz__(self):
-        determinant = self.num + self.num % self.prime
+    def __modz__(self,other):
+        determinant = self.other + self.num % self.prime
         if determinant:
             return "Finite set is closed and answer is {}".format(determinant)
         else: 
