@@ -1,5 +1,5 @@
 ## Exercise Questions
-This folder contains exercise questions and answers of chapter 1 of the book **__Programming Bitcoin - Learn How to Program Bitcoin from Scratch__**
+This folder contains exercise questions and answers of chapter 1 (Finite Fields) of the book **__Programming Bitcoin - Learn How to Program Bitcoin from Scratch__**
 ___
 ### Finite Fields
 1. ![exercise 1](https://raw.githubusercontent.com/kiiru4reals/bitcoin-blockchain-with-python/main/Finite%20Fields/Files/ex_1.png "Exercise 1")
