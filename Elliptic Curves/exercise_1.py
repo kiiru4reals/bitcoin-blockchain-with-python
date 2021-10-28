@@ -1,14 +1,7 @@
-from cprint import cprint
+def on_curve(x, y):
+    return y**2 == x**3 + 5*x + 7
 
-def test(x, y):
-    return pow(y, 2) == pow(x, 3) + 5 * x + 7
-
-points = [(2, 1), (-1, -1), (18, 77), (5, 7)]
-
-
-if __name__ == '__main__':
-    for count, a in enumerate(points, start=1):
-        if test(a[0], a[1]):
-            cprint(f'{count}. {a}\t\t: True', c='Ig')
-        else:
-            cprint(f'{count}. {a}\t\t: False', c='rI')
+print(on_curve(2,4))
+print(on_curve(-1,-1))
+print(on_curve(18,77))
+print(on_curve(5,7))
