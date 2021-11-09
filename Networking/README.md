@@ -8,4 +8,3 @@ ___
 3. ![exercise 3](https://raw.githubusercontent.com/kiiru4reals/bitcoin-blockchain-with-python/main/Finite%20Fields/Files/ex_10_3.png "Exercise 3")
 4. ![exercise 4](https://raw.githubusercontent.com/kiiru4reals/bitcoin-blockchain-with-python/main/Finite%20Fields/Files/ex_10_4.png "Exercise 4")
 5. ![exercise 5](https://raw.githubusercontent.com/kiiru4reals/bitcoin-blockchain-with-python/main/Finite%20Fields/Files/ex_10_5.png "Exercise 5")
-6. ![exercise 6](https://raw.githubusercontent.com/kiiru4reals/bitcoin-blockchain-with-python/main/Finite%20Fields/Files/ex_10_6.png "Exercise 6")
