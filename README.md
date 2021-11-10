@@ -12,7 +12,7 @@ The repository has been authored by the following students of [KCA University](h
 |Bryan Alang'o		| [blaq-swan](https://github.com/blaq-swan "blaq-swan")		 | mr.alangobryan@gmail.com         |
 |Kiiru Maina		| [kiiru4reals](https://github.com/kiiru4reals "kiiru4reals")| Smaina991@gmail.com				|
 |Fernandes Marwanga	| [Epilfano](https://github.com/Epilfano "Epilfano")		 | epilfanovargaz@gmail.com			|
-|Rodney Somoire		| [somoiretom](https://github.com/somoiretom "somoiretom")	 | somoirenkoyo@gmail.com			|
+|Rodney Somoire		| [somoire](https://github.com/somoire "somoire")	 | somoirenkoyo@gmail.com			|
 |Lynn Njeri			| [lynfavor](https://github.com/lynfavor "lynfavor") 		 | njeriout@gmail.com				|
 
 ## Resources
