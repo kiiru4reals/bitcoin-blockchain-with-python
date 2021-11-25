@@ -1,0 +1,67 @@
+             (1).
+from ecc import FieldElement
+prime = 223
+a = FieldElement(0, prime)
+b = FieldElement(7, prime)
+def on_curve(x,y):
+...     return y**2 == x**3 + a*x + b
+print(on_curve(FieldElement(192, prime), FieldElement(105, prime)))
+True
+print(on_curve(FieldElement(17, prime), FieldElement(56, prime)))
+True
+print(on_curve(FieldElement(200, prime), FieldElement(119, prime)))
+False
+print(on_curve(FieldElement(1, prime), FieldElement(193, prime)))
+True
+print(on_curve(FieldElement(42, prime), FieldElement(99, prime)))
+False
+
+
+
+                             (2).
+from ecc import FieldElement, Point
+prime = 223
+a = FieldElement(0, prime)
+b = FieldElement(7, prime)
+p1 = Point(FieldElement(170, prime), FieldElement(142, prime), a, b)
+p2 = Point(FieldElement(60, prime), FieldElement(139, prime), a, b)
+print(p1+p2)
+Point(220,181)_0_7 FieldElement(223)
+p1 = Point(FieldElement(47, prime), FieldElement(71, prime), a, b)
+p2 = Point(FieldElement(17, prime), FieldElement(56, prime), a, b)
+print(p1+p2)
+Point(215,68)_0_7 FieldElement(223)
+p1 = Point(FieldElement(143, prime), FieldElement(98, prime), a, b)
+p2 = Point(FieldElement(76, prime), FieldElement(66, prime), a, b)
+print(p1+p2)
+Point(47,71)_0_7 FieldElement(223)
+
+                               (3).
+
+
+                               (4).
+from ecc import FieldElement, Point
+prime = 223
+a = FieldElement(0, prime)
+b = FieldElement(7, prime)
+x1 = FieldElement(num=192, prime=prime)
+y1 = FieldElement(num=105, prime=prime)
+p = Point(x1,y1,a,b)
+print(p+p)
+Point(49,71)_0_7 FieldElement(223)
+x1 = FieldElement(num=143, prime=prime)
+y1 = FieldElement(num=98, prime=prime)
+p = Point(x1,y1,a,b)
+print(p+p)
+Point(64,168)_0_7 FieldElement(223)
+x1 = FieldElement(num=47, prime=prime)
+y1 = FieldElement(num=71, prime=prime)
+p = Point(x1,y1,a,b)
+print(p+p)
+Point(36,111)_0_7 FieldElement(223)
+print(p+p+p+p)
+Point(194,51)_0_7 FieldElement(223)
+print(p+p+p+p+p+p+p+p)
+Point(116,55)_0_7 FieldElement(223)
+print(p+p+p+p+p+p+p+p+p+p+p+p+p+p+p+p+p+p+p+p+p)
+Point(infinity)
